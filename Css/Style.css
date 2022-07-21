@@ -57,13 +57,14 @@
   .cell.circle {
     cursor: not-allowed;
   }
+  /* Clicked Value Color*/
   
   .cell.x::before,
   .cell.x::after,
   .cell.circle::before {
     background-color: black;
   }
-  
+  /*Box hover Visbile Choose Value */
   .board.x .cell:not(.x):not(.circle):hover::before,
   .board.x .cell:not(.x):not(.circle):hover::after,
   .board.circle .cell:not(.x):not(.circle):hover::before {
